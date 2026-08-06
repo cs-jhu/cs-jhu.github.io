@@ -90,6 +90,12 @@ html[lang="zh-CN"] p.bio {
   text-justify: inter-ideograph;
 }
 
+html[lang="en"] p.profile-description {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: none;
+}
+
 div h3 {
 	font-size: 18px;
 	font-weight: bold;
@@ -152,4 +158,3 @@ em.award {
     padding-left: 22px;
   }
 }
-
