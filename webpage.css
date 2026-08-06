@@ -48,6 +48,15 @@ body {
   padding-bottom: 10px;
 }
 
+.section-note {
+  display: block;
+  margin-top: 4px;
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
 div.name{
   padding-top: 10px;
 	font-size: 32px;
@@ -93,6 +102,21 @@ em.award {
    color: #FF8100;
    font-style: normal;
 	font-weight: bold;
+}
+
+.publication-list > li:not(.ccf-no-a) > div::after {
+  content: "CCF A";
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: rgb(225, 95, 55);
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 14px;
+  vertical-align: baseline;
+  white-space: nowrap;
 }
 
 @media (max-width: 600px) {
