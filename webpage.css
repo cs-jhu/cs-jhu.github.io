@@ -26,6 +26,11 @@ body {
   text-decoration: none;
 }
 
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #fff;
+}
+
 .content {
 	width: min(700px, 100%);
 	margin-left: 20px;
@@ -69,6 +74,11 @@ p.bio{
   padding-top: 3px;
 	font-size: 14px;
   padding-bottom: 3px;
+}
+
+html[lang="zh-CN"] p.bio {
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 
 div h3 {
